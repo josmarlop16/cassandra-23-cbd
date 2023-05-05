@@ -1,0 +1,3 @@
+SELECT * FROM train_data WHERE trip_uuid = 'trip-153744370570622737' ALLOW FILTERING;
+
+SELECT COUNT(*) FROM train_data  WHERE od_start_time = '2018-03-24 07:04:28.000' ALLOW FILTERING;
